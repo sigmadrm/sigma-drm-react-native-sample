@@ -66,3 +66,11 @@ Video.setAppId('APP_ID');
     style={{height: 200}}
 />
 ```
+
+| Property     |  Type  | Description                     |
+| :----------- | :----: | :------------------------------ |
+| MERCHANT_ID  | String | Merchant's identifier           |
+| APP_ID       | String | Application's identifier        |
+| MANIFEST_URI | String | Media source                    |
+| USER_ID      | String | Merchant's user identifier      |
+| SESSION_ID   | String | User session of merchant's user |
