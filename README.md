@@ -37,12 +37,18 @@ project(':react-native-video').projectDir = new File(rootProject.projectDir, '..
 
 3. Sync Project with Gradle Files
 4. Run app
+   - `yarn start`
 
 ## 1.2 iOS installation
 
-1. Install library
-   `cd ios && pod install && cd ..`
-2. Run app
+1. Disable react-native hermes at file `ios/Podfile`
+   - `:hermes_enabled => flags[:hermes_enabled]` to `:hermes_enabled => false`
+2. Install library:
+
+   - `cd ios && pod install && cd ..`
+
+3. Run app
+   - `yarn start`
 
 ## 2. Config DRM info
 
